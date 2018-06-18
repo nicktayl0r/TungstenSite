@@ -1,0 +1,14 @@
+.Header {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+li {
+  padding: 0 15px;
+}

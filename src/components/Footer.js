@@ -2,20 +2,19 @@ import React from "react";
 import "./Styles.css";
 import { Link } from "react-router-dom";
 
-class Header extends React.Component {
+class Footer extends React.Component {
   render() {
     return (
       <div className="Header">
         <ul>
-          <li>TUNGSTEN</li>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Facebook</Link>
           </li>
           <li>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/Contact">Twitter</Link>
           </li>
           <li>
-            <Link to="/Brands">Brands</Link>
+            <Link to="/Brands">Instagram</Link>
           </li>
         </ul>
       </div>
@@ -23,4 +22,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default Footer;

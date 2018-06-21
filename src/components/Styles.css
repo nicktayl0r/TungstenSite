@@ -1,6 +1,8 @@
 .Header {
   background-color: black;
   color: white;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -11,4 +13,8 @@ ul {
 
 li {
   padding: 0 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
 }

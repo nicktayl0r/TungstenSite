@@ -5,7 +5,7 @@ const FourOhFour = function() {
   return (
     <div className="Page">
       <Header />
-      You done goofed son, this page isnt a page.
+      404 You done goofed son, this page isnt a page.
     </div>
   );
 };

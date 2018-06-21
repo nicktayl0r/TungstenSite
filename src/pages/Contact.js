@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../components/Header";
+import "./PageStyles.css";
 
-const Contact = function() {
+const Contact = () => {
   return (
     <div className="Page">
-      <Header />This is the Contact Page.
+      <Header />
+      <h1>Contact the Team</h1>
       <form id="form" class="topBefore">
-        <input id="name" type="text" placeholder="NAME">
-        <input id="email" type="text" placeholder="E-MAIL">
-        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-        <input id="submit" type="submit" value="GO!">
+        <input id="name" type="text" placeholder="NAME" />
+        <input id="email" type="text" placeholder="E-MAIL" />
+        <textarea id="message" type="text" placeholder="MESSAGE" />
+        <input id="submit" type="submit" value="SUBMIT" />
       </form>
     </div>
   );

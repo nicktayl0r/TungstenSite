@@ -3,6 +3,7 @@ import "./PageStyles.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Parallax } from "react-parallax";
+import { Link } from "react-router-dom";
 
 const Brands = function() {
   return (
@@ -30,7 +31,9 @@ const Brands = function() {
       </Parallax>
       <div className="contactDiv">
         <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div>Contact Us</div>
+        <div>
+          <Link to="/Contact">Contact Us</Link>
+        </div>
       </div>
       <Footer />
     </div>

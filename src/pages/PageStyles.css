@@ -1,3 +1,6 @@
+* {
+}
+
 .Page {
   color: white;
 }
@@ -185,27 +188,58 @@ textarea:hover {
 
 /* Home Page */
 .parallax {
+  width: 400px;
   height: 500px;
   text-transform: uppercase;
-  margin: auto;
-  display: flex;
+  text-align: center;
+  font-size: 50px;
+  box-sizing: border-box;
+  padding-top: 20%;
+  margin: 0 20px;
+}
+
+.p2 {
+  margin: 0 auto;
+}
+/* .p2 > * {
+  padding-top: 50%;
+} */
+
+.p3 {
+  float: right;
+}
+.p3 > * {
+  float: right;
+  text-align: right;
+  margin: 5px;
+}
+
+.p4 {
+  padding-top: 20%;
+  float: left;
+}
+.p4 > * {
+  float: left;
+  text-align: left;
 }
 
 .parallax > div:first-child {
-  font-size: 18px;
-  border: 2px solid white;
+  font-size: 24px;
+  border: 3px solid white;
   padding: 30px;
   height: 20px;
   transition-duration: 0.5s;
 }
 
 .parallax > div:nth-child(2) {
+  width: 500px;
   padding: 10px;
   color: goldenrod;
   font-family: sans-serif;
   font-weight: 500;
   font-size: 24px;
   display: inline-block;
+  padding: 10px 0;
 }
 
 .parallax > div:first-child:hover {
@@ -246,4 +280,8 @@ textarea:hover {
   text-align: center;
   margin: 0 auto;
   padding: 5px;
+}
+
+h1 {
+  text-align: center;
 }

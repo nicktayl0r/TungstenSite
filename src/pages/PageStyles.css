@@ -186,4 +186,64 @@ textarea:hover {
 /* Home Page */
 .parallax {
   height: 500px;
+  text-transform: uppercase;
+  margin: auto;
+  display: flex;
+}
+
+.parallax > div:first-child {
+  font-size: 18px;
+  border: 2px solid white;
+  padding: 30px;
+  height: 20px;
+  transition-duration: 0.5s;
+}
+
+.parallax > div:nth-child(2) {
+  padding: 10px;
+  color: goldenrod;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.parallax > div:first-child:hover {
+  color: black;
+  background: white;
+  transition-duration: 0.5s;
+}
+
+.p4 > div {
+  display: block;
+  align-content: flex-end;
+  flex-direction: column;
+}
+
+.contactDiv {
+  color: red;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.contactDiv > * {
+  text-align: center;
+  font-size: 24px;
+  clear: both;
+  padding: 20px;
+}
+
+.contactDiv > *:nth-child(2):hover {
+  color: black;
+  background: white;
+  transition-duration: 0.5s;
+}
+
+.contactDiv > *:nth-child(2) {
+  width: 300px;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 0.5s;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "./PageStyles.css";
 
 const Contact = () => {
@@ -13,6 +14,7 @@ const Contact = () => {
         <textarea id="message" type="text" placeholder="MESSAGE" />
         <input id="submit" type="submit" value="SUBMIT" />
       </form>
+      <Footer />
     </div>
   );
 };

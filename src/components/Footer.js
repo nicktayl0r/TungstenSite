@@ -5,16 +5,16 @@ import { Link } from "react-router-dom";
 class Footer extends React.Component {
   render() {
     return (
-      <div className="Header">
-        <ul>
+      <div className="Footer">
+        <ul className="socialMedia">
           <li>
-            <Link to="/">Facebook</Link>
+            <Link to="">Facebook</Link>
           </li>
           <li>
-            <Link to="/Contact">Twitter</Link>
+            <Link to="">Twitter</Link>
           </li>
           <li>
-            <Link to="/Brands">Instagram</Link>
+            <Link to="">Instagram</Link>
           </li>
         </ul>
       </div>

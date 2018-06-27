@@ -4,17 +4,45 @@
   border-bottom: 1px solid white;
   margin-bottom: 20px;
 }
-
 ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-start;
 }
-
 li {
   padding: 0 15px;
+  display: inline;
 }
 a {
   color: white;
   text-decoration: none;
+}
+.Footer {
+  color: white;
+  border-top: 1px solid white;
+  margin-bottom: 20px;
+}
+.Footer ul {
+  justify-content: center;
+}
+.Header ul {
+  display: inline-block;
+}
+
+.navigation {
+  justify-content: flex-start;
+  color: white;
+}
+
+.navigation:hover * {
+  color: grey;
+  transition-duration: 1s;
+}
+.navigation a:hover {
+  color: white;
+}
+
+.socialMedia *:hover {
+  color: grey;
+  transition-duration: 1s;
 }

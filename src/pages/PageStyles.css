@@ -2,7 +2,7 @@
   color: white;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100, 300, 400);
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
@@ -181,4 +181,9 @@ textarea:hover {
 
 #Header {
   border-bottom: 1px solid white;
+}
+
+/* Home Page */
+.parallax {
+  height: 500px;
 }

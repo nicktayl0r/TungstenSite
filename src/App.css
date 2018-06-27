@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background-color: black;
 }
 
@@ -16,8 +15,7 @@
 .App-title {
   font-size: 1.5em;
 }
-
-.App-intro {
+d .App-intro {
   font-size: large;
 }
 

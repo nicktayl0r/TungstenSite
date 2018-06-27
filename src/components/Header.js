@@ -8,6 +8,8 @@ class Header extends React.Component {
       <div className="Header">
         <ul>
           <li>TUNGSTEN</li>
+        </ul>
+        <ul className="navigation">
           <li>
             <Link to="/">Home</Link>
           </li>
